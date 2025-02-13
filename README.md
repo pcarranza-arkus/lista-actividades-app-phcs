@@ -1,4 +1,4 @@
-# Lista de Actividades
+# Aplicacion Lista de Actividades
 
 Esta es una aplicación simple desarrollada en **Angular 19** que permite gestionar una lista de actividades. La aplicación incluye funcionalidades básicas como agregar, editar y eliminar actividades. Además, este proyecto está diseñado para aprender a realizar pruebas end-to-end (E2E) con **Cypress**.
 
@@ -33,7 +33,7 @@ Esta es una aplicación simple desarrollada en **Angular 19** que permite gestio
 ### Pasos para ejecutar la aplicación
 - **Clonar el repositorio**:
   ```bash
-  git clone https://github.com/tu-usuario/lista-actividades.git
+  git clone https://github.com/Academy-QA/lista-actividades-app.git
   cd lista-actividades
 
 - **Instalar dependencias**:
@@ -87,7 +87,7 @@ Verifica que se pueda eliminar una actividad de la lista.
 
 - Estructura del proyecto
   ```bash
-    lista-actividades/
+    lista-actividades-app/
     ├── src/
     │   ├── app/
     │   │   ├── lista-actividades/
