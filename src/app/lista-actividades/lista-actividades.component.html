@@ -2,17 +2,17 @@
 
   <!-- Formulario para agregar o editar actividades -->
   <div *ngIf="actividadEditando; else agregar" class="form-container">
-    <h3>Editar Actividad</h3>
-    <input [(ngModel)]="actividadEditando.nombre" placeholder="Nombre de la actividad" class="input">
-    <button (click)="guardarEdicion()" class="btn btn-save">Guardar</button>
-    <button (click)="actividadEditando = null" class="btn btn-cancel">Cancelar</button>
+    <h3 data-cy="55E9mj">Editar Actividad</h3>
+    <input data-cy="55E9mk" [(ngModel)]="actividadEditando.nombre" placeholder="Nombre de la actividad" class="input">
+    <button data-cy="55E9ml" (click)="guardarEdicion()" class="btn btn-save">Guardar</button>
+    <button data-cy="55E9mm" (click)="actividadEditando = null" class="btn btn-cancel">Cancelar</button>
   </div>
 
   <ng-template #agregar>
-    <div class="form-container">
-      <h3>Agregar Actividad</h3>
-      <input [(ngModel)]="nuevaActividad" placeholder="Nombre de la actividad" class="input">
-      <button (click)="agregarActividad()" class="btn btn-add">Agregar</button>
+    <div data-cy="55E9mn"="form-container">
+      <h3 data-cy="55E9mo">Agregar Actividad</h3>
+      <input data-cy="55E9mp" [(ngModel)]="nuevaActividad" placeholder="Nombre de la actividad" class="input">
+      <button data-cy="55E9mq" (click)="agregarActividad()" class="btn btn-add">Agregar</button>
     </div>
   </ng-template>
 
